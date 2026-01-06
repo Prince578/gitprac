@@ -1,0 +1,130 @@
+nav {
+  background-color: #213B52;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10px;
+  align-items: center;
+  
+}
+
+body {
+  margin: 0px;
+  background-color: #213B52;
+  
+}
+
+.div-two ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin-right: 10px;
+  margin-top: 15px;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.lists {
+  margin-left: 13px;
+  text-decoration: none;
+  color: rgb(245, 62, 62);  
+  
+}
+
+.lists:hover {
+  margin-left: 13px;
+  text-decoration: none;
+  color: rgb(255, 255, 255); 
+}
+
+.harvoxx {
+  color: white;
+  margin-left: 75px;
+}
+
+.listss {
+  margin-top: 0px;
+}
+
+.get-started {
+  margin-left: 30px;
+  margin-right: 20px;
+  text-decoration: none;
+  color: rgb(204, 204, 204);
+  border: solid #FDC134;
+  border-radius: 30px;
+  border-width: 2px;
+  font-size: 15px;
+  background-color: #213B52;
+  padding: 7px 22px;
+}
+
+.container {
+  display: flex;
+  margin:8%;
+  gap: 5%;
+  margin-top: 50px;
+}
+
+.div1 {
+  width: 46%;
+}
+
+.div2 {
+  width: 46%;
+}
+
+.stb {
+  width: 510px;
+  margin-top: 50px;
+}
+
+.pone {
+  line-height: 24px;
+  font-size: 16px;
+  color: white;
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-top: 0px;
+}
+
+.hone {
+  color: rgb(210, 224, 237);
+  font-family: Poppins, sans-serif;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 50px;
+  margin-bottom: 20px;
+}
+
+.get-started-two {
+  margin-left: 30px;
+  margin-right: 20px;
+  text-decoration: none;
+  color: rgb(33, 59, 82);
+  border: solid #FDC134;
+  border-radius: 30px;
+  border-width: 2px;
+  font-size: 15px;
+  background-color: #FDC134;
+  padding: 12px 40px;
+  margin-top: 0px;
+  text-align: left;
+  margin-left: 0px;
+}
+
+.get-started-two:hover {
+  margin-left: 30px;
+  margin-right: 20px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  border: solid #FDC134;
+  border-radius: 30px;
+  border-width: 2px;
+  font-size: 15px;
+  background-color: #213B52;
+  padding: 12px 40px;
+  margin-top: 0px;
+  text-align: left;
+  margin-left: 0px;
+  cursor: pointer;  
+  transition: 1s;
+}
