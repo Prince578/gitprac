@@ -9,7 +9,6 @@ nav {
 
 body {
   margin: 0px;
-  background-color: #213B52;
   
 }
 
@@ -26,7 +25,7 @@ body {
 .lists {
   margin-left: 13px;
   text-decoration: none;
-  color: rgb(245, 62, 62);  
+  color: rgb(255, 255, 255);  
   
 }
 
@@ -58,11 +57,18 @@ body {
   padding: 7px 22px;
 }
 
+.parent {
+  background-color: #213B52;
+  padding-top: 10px;
+  padding-bottom: 80px;
+}
+
 .container {
   display: flex;
   margin:8%;
   gap: 5%;
   margin-top: 50px;
+  background-color: #213B52;
 }
 
 .div1 {
@@ -109,6 +115,7 @@ body {
   margin-top: 0px;
   text-align: left;
   margin-left: 0px;
+  transition: 1s;
 }
 
 .get-started-two:hover {
@@ -126,5 +133,269 @@ body {
   text-align: left;
   margin-left: 0px;
   cursor: pointer;  
-  transition: 1s;
+}
+.container-two {
+  display: flex;
+  background-color: white;
+  padding-top: 70px;
+  gap: 8%;
+}
+
+.img-two {
+  min-height: 200px;
+  height: 550px;
+  width: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: 50px;
+}
+
+.imgtwodiv {
+  width: 40%;
+}
+
+.div-three {
+  width: 50%;
+}
+
+.ptwo {
+  font-family: "Open Sans", sans-serif;
+  color: #444444;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+  margin-top: 0px;
+  width: 570px;
+  
+}
+
+.htwo {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+  font-size: 40px;
+  font-weight: 600;
+  color: #212529;
+  margin-bottom: 5px;
+}
+
+.readmore {
+  text-decoration: none;
+  color: rgb(1, 1, 63);
+}
+
+.belowabout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+}
+
+.paragraphs {
+  width: 190px;
+  font-size: 15px;
+  color: #848484;
+  margin-left: 60px;
+}
+
+.headers {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 5px 0 10px 60px;
+  color: #213b52;
+  font-family: "Raleway", sans-serif;
+}
+
+.first-below-about {
+  margin-top: 20px;
+}
+
+.second-below-about {
+  margin-top: 10px;
+}
+
+.services {
+  text-align: center;
+}
+
+.services-text {
+  text-align: center;
+}
+
+.service-images {
+  width: 100%;
+  display: flex !important;
+  position: relative;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.service-images-div {
+  display: grid;
+  grid-template-columns: 520px 520px;
+  position: relative;
+  row-gap: 2%;
+  column-gap: 5%;
+  margin-left: 70px;
+}
+
+.services-text-div {
+  z-index: 10;
+  background: #fff;
+  border-top: 4px solid #fff;
+  padding: 30px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  margin-top: -30px;
+  transition: 0.3s;
+  transform: translate(10%, -10%);
+  width: 400px;
+  text-align: center;
+}
+
+.paragraphs-services{
+  font-family: "Open Sans", sans-serif;
+  color: #444444;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  margin-top: 0px;
+}
+
+.headers-services {
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 50px;
+  font-family: "Raleway", sans-serif;
+  width: 500px;
+}
+.parent-three {
+  background: linear-gradient(180deg, #f2f6fa 0%, #fff 100%);
+}
+
+.harvoxx-pricing {
+  width: 90%;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.container-four {
+  margin-top: 120px;
+  text-align: center;
+  background: linear-gradient(180deg, #f2f6fa 0%, #fff 100%);
+  padding-top: 100px;
+}
+
+.pricing {
+  text-align: center;
+}
+
+.container-five {
+  margin-top: 120px;
+  background: linear-gradient(180deg, #f2f6fa 0%, #fff 100%);
+  padding-top: 100px;
+  display: flex;
+  gap: 10%;
+}
+
+.contact-header {
+  text-align: center;
+  display: block;
+}
+
+.email-contact-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  z-index: 10;
+  background: #fff;
+  border-top: 4px solid #fff;
+  padding: 30px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  margin-top: -30px;
+  transition: 0.3s;
+  transform: translate(10%, -10%);
+  width: 500px;
+  text-align: center;
+  column-gap: 50px;
+  
+}
+
+
+.entire-contact-div {
+  width: 40%;
+  
+  background: #fff;
+  border-top: 4px solid #fff;
+  padding: 30px;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1);
+  margin-top: -30px;
+  transition: 0.3s;
+  transform: translate(10%, -10%);
+  width: 500px;
+  text-align: center;
+  padding-bottom: -900px;
+}
+
+
+.entire-contact-div-two {
+  width: 40%;
+  z-index: 10;
+  background: #fff;
+  border-top: 4px solid #fff;
+  padding: 30px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  margin-top: -30px;
+  transition: 0.3s;
+  transform: translate(10%, -10%);
+  width: 500px;
+  margin-left: -90px;
+  margin-bottom: -80px;
+}
+
+.our-address {
+  text-align: center;
+}
+
+.elzazi {
+  text-align: center;
+}
+
+.contact-lists {
+  list-style-type: none;
+}
+
+.your-name {
+  width: 195px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 15px;
+}
+
+.your-email {
+  width: 195px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 15px;  
+}
+
+.subject {
+  width: 400px;
+  vertical-align: middle;
+  margin-bottom: 15px;
+}
+
+.message {
+  width: 400px;
+  vertical-align: middle;
+  padding-bottom: 100px;
+  margin-bottom: 15px;
+}
+
+.send-button {
+    background-color: orange;
+    color: black;
+    width: 150px;
+    padding: 10px;
+    border: none;
+    font-weight: bold;
+    align-items: center;
 }
